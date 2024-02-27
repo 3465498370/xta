@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*超出内容区域隐藏*/
+}
+
+/* 公共样式：水平弹性布局 */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+/*公共样式：垂直弹性布局*/
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/*完美居中方案*/
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    flex: 1;
+    background: red
+}
+
+.head>button {
+    background: transparent;
+    border: 0;
+}
+
+.head div {
+    color: bisque;
+}
+
+.city-address,
+.search {
+    flex: 1;
+}
+
+.headline {
+    flex: 4;
+}
+
+
+.body {
+    position: relative;
+    flex: 8;
+    /* background: linear-gradient(135deg, #fdd819, #e80505); */
+    border: 100;
+}
+
+.area3>button {
+    background: transparent;
+    border: 0;
+}
+
+.area6>button {
+    background: transparent;
+    border: 0;
+}
+
+.area9>button {
+    background: transparent;
+    border: 0;
+}
+
+.film1,
+.film2,
+.film3 {
+    flex: 2;
+}
+
+.recommended {
+    flex: 2;
+}
+
+.recommended-img {
+    width: 100%;
+    height: 100%;
+}
+
+.area1-img,
+.area4-img,
+.area7-img {
+    width: 100%;
+    height: 100%;
+}
+
+.score1,
+.score2,
+.score3 {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.buyticket1,
+.buyticket2,
+.buyticket3 {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    color: #ff0080;
+}
+
+.area1,
+.area3,
+.area4,
+.area6,
+.area7,
+.area9 {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+}
+
+.name1,
+.name2,
+.name3,
+.details1,
+.details2,
+.details3 {
+    width: 80%;
+    height: 80%;
+    flex: 1;
+}
+
+.area2,
+.area5,
+.area8 {
+    width: 100%;
+    height: 100%;
+    flex: 2;
+}
+
+
+.foot {
+    flex: 1;
+    background: white
+}
+
+.home-page,
+.classification,
+.ranking-list,
+.personal-center {
+    flex: 1;
+}
+
+.foot>button {
+    background: transparent;
+    border: 0;
+}
